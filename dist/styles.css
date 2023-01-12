@@ -1,3 +1,168 @@
-body {
-  font-family: verdana;
+nav {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
 }
+
+.navbar {
+    justify-content: space-around;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.button1 {
+    padding: 1rem;
+    background-color: darkgray;
+   }
+   
+.nav .nav-links {
+    display: flex;
+    align-items: center;
+   }
+
+.nav {
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.update {
+    color: white;
+    display: flex;
+    background-color: darkgray;
+    flex-direction: column;
+    width: 50%;
+    font-size: 25px;
+    float: right;
+}
+
+.update input {
+    margin: .5rem;
+    padding: 10px;
+}
+
+.update h2 {
+    text-align: center;
+   }
+
+.create {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+}
+
+.create input {
+    margin: .5rem;
+    padding: 10px;
+}
+
+label {
+    padding-right: 2rem;
+   }
+
+.create h2 {
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+.post {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;;
+    width: 50%;
+    float: left;
+}
+
+form {
+    padding: 25px;
+    margin: 50px auto;
+}
+
+.LoginBox {
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+   }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.register {
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+#Search {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25rem;
+}
+
+
+   
+article {
+    place-items: center;
+    grid-gap: 2rem;
+    width: 100%;
+    margin: auto;
+    padding: 4rem 2rem;
+}
+
+article>* {
+    background-color: lightgray;
+    width: 100%;
+     }
+   
+h1 {
+    color: white;
+    background-color: darkgray;
+    text-align: center;
+    padding: 1rem 100px;
+}
+   
+article {
+    padding: 2rem;
+}
+   
+.singlepost {
+    background-color: darkgray;
+    padding: 2rem;
+    border-color: 2px solid  black;
+    color: white;
+}
+   
